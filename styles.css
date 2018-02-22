@@ -1,0 +1,132 @@
+body {
+  background-color: #0c0c0c;
+}
+
+.container {
+  width: 400px;
+  overflow: auto;
+  overflow: hidden;
+  background-color: black
+}
+.h3text {
+  color: #d8d8d8;
+  font-family: "Rock Salt", cursive;
+  font-size: 35px;
+  text-align: center;
+}
+.italic-fact {
+  color: white;
+  font-family: "Exo 2", sans-serif;
+  font-size: 18px;
+  text-align: center;
+  font-style: Extra-Light Italic;
+  padding: 10px;
+}
+.list-text {
+  color: white;
+  font-family: "Shadows Into Light", sans-serif;
+  font-size: 20px;
+  text-align: center;
+  padding: 10px;
+}
+
+.list-item-attribute-title {
+  color: white;
+  font-family: "Kalam", cursive;
+  font-size: 20px;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.licentered {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.solid-card-border {
+  border-width: 1px;
+  border-radius: 5%;
+  border-style: solid;
+  border-color: #191919;
+  border-top-color: black;
+}
+
+.hidden-image-border {
+  border-width: 5px;
+  border-style: hidden;
+  border-radius: 5%;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  padding: 0;
+}
+
+.solid-h3-border {
+  border-width: 1px;
+  border-radius: 30%;
+  border-style: solid;
+  border-color: #191919;
+  margin: 10px;
+}
+
+.solid-fact-border {
+  border-width: 1px;
+  border-radius: 5%;
+  border-style: solid;
+  border-color: #191919;
+  border-top-color: black;
+  margin: 7px;
+}
+
+.displayed {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px
+}
+.element {
+  -webkit-animation: KEYFRAME-NAME 5s infinite;
+  -moz-animation: KEYFRAME-NAME 5s infinite;
+  -o-animation: KEYFRAME-NAME 5s infinite;
+  animation: KEYFRAME-NAME 5s infinite;
+  animation-iteration-count: 1;
+}
+
+@-webkit-keyframes KEYFRAME-NAME {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-moz-keyframes KEYFRAME-NAME {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-o-keyframes KEYFRAME-NAME {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes KEYFRAME-NAME {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
