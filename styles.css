@@ -8,32 +8,30 @@ body {
   overflow: hidden;
   background-color: black
 }
+
 .h3text {
   color: #d8d8d8;
-  font-family: "Rock Salt", cursive;
-  font-size: 35px;
+  font: 35px "Rock Salt", cursive;
   text-align: center;
 }
+
 .italic-fact {
   color: white;
-  font-family: "Exo 2", sans-serif;
-  font-size: 18px;
   text-align: center;
-  font-style: Extra-Light Italic;
+  font: Extra-Light Italic 18px "Exo 2", sans-serif;
   padding: 10px;
 }
+
 .list-text {
   color: white;
-  font-family: "Shadows Into Light", sans-serif;
-  font-size: 20px;
+  font: 20px "Shadows Into Light", sans-serif;
   text-align: center;
   padding: 10px;
 }
 
 .list-item-attribute-title {
   color: white;
-  font-family: "Kalam", cursive;
-  font-size: 20px;
+  font: 20px "Kalam", cursive;
   text-align: center;
 }
 
@@ -90,6 +88,7 @@ ul {
   margin-right: auto;
   width: 300px
 }
+
 .element {
   -webkit-animation: KEYFRAME-NAME 5s infinite;
   -moz-animation: KEYFRAME-NAME 5s infinite;
