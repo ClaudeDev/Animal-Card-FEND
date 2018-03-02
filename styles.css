@@ -4,8 +4,6 @@ body {
 
 .container {
   width: 400px;
-  overflow: auto;
-  overflow: hidden;
   background-color: black
 }
 
@@ -16,11 +14,9 @@ body {
 }
 
 .italic-fact {
-  color: white;
-  font-family: "Exo 2", sans-serif;
-  font-size: 18px;
+  color: white; 
+  font: 18px "Exo 2", sans-serif;;
   text-align: center;
-  font-style: Extra-Light Italic;
   padding: 10px;
 }
 
